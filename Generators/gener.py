@@ -1,5 +1,6 @@
 # What do you mean by Generator?
-# A Generator is a special type of function which does not return a single value, instead it returns an iterator object with a sequwnce of values
+# A Generator is a special type of function which does not return a single value, 
+# instead it returns an iterator object with a sequwnce of values
 # In Generator YIELD statement is used instead of RETURN
 #Generator uses YIELD keyword
 
@@ -8,7 +9,8 @@
 # whereas return statement returns a value and terminates the execution of the function.
 
 # What happens if we use return keyword before yield in a Generator in Python?
-# If we use return keyword before yield in Genrator the function won't execute remaining yield statements.It will throw an error if we try to execute.
+# If we use return keyword before yield in Genrator the function won't execute 
+# remaining yield statements.It will throw an error if we try to execute.
 # When we use return after yiled it first execute yield and then execute return.
 #Example
 
