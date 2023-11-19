@@ -83,3 +83,57 @@ x=5
 y=func1(x)
 print(y)
 #o/p = 20
+
+'''
+------>> What is Module?
+    The module is a simple Python file that contains collections of functions and global variables and with having a 
+    .py extension file.
+
+    A module is a single file that are imported under one import and are used.
+
+    It is an executable file and to organize all the modules we have the concept called Package.
+    in Python
+    E.g,
+        import <my_module>
+        import json
+
+------->> What do you mean by Package in Python?
+    The Package is a simple directory having collections of modules.
+
+    The directory contains Python modules and also having __init__.py file by which
+    the interpreter interprets it as a package.
+
+    The package is simply a namespace.
+
+    The Package also contains sub-packages inside it.
+
+A Package is a collection of modules in directories that give a package hierarchy
+
+E.g.
+    from my__package.abc import a
+
+------->> What do you mean by library in Python ?
+
+    Library is an umbrella term referring to a reusable chunk of code.
+
+    A Package is a collection of modules, a library is a collection of packages.
+    
+    Generally, A Python library contains collection of related modules and packages.
+    
+    We create Python libraries to share reusable code with the community.
+E.g.
+    import <my__library>
+    import numpy
+
+------>> What is the difference between Module,Package and Library?
+
+Examples of Module,Package and Library?
+Module              Package             Library
+--- random        --- Numpy             --- Matplotlib
+    os                pandas            --- pygame
+    json              pytest            --- Beautiful Soup
+    html              Scipy             --- Requests 
+    datetime          PyTorch
+    re                Pendulum
+                      Pywin32
+'''
